@@ -1,0 +1,34 @@
+{
+  "name": "node-hot-reload",
+  "version": "1.0.0",
+  "description": "Hot-reloading for Node.js",
+  "license": "MIT",
+  "keywords": [
+    "hot",
+    "module",
+    "replacement",
+    "hmr",
+    "live",
+    "reloading",
+    "reload",
+    "hot-swap",
+    "hot-reload",
+    "live-reload",
+    "live-coding",
+    "live-swap"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/node": "10.14.10",
+    "tslint": "5.18.0",
+    "typescript": "3.5.2"
+  },
+  "dependencies": {
+    "chokidar": "3.0.1"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w"
+  }
+}
